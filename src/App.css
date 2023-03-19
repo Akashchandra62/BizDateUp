@@ -1,0 +1,22 @@
+@media screen and (max-width: 1100px) {
+  .main {
+    flex-direction: column !important;
+  }
+  .main > div {
+    width: 100% !important;
+  }
+
+  .main-container {
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main-container {
+    width: 85% !important;
+  }
+
+  .main-container > button,
+  .main-container > form {
+    width: 85% !important;
+  }
+}
